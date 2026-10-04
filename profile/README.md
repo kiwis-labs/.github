@@ -10,7 +10,17 @@ Tools we wished existed, so we built them.
 
 ## Install with Homebrew
 
-Every tool installs from one tap:
+Every tool installs from one tap.
+
+Let your coding agent do it. Paste this, with the tool name filled in:
+
+```text
+Install <tool> for me from https://github.com/kiwis-labs/homebrew-tap:
+run `brew tap kiwis-labs/tap`, `brew trust kiwis-labs/tap` and `brew install <tool>`.
+Then follow the setup step brew prints after the install, and tell me what it did.
+```
+
+Or run it yourself:
 
 ```bash
 brew tap kiwis-labs/tap
